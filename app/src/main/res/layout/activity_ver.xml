@@ -99,6 +99,14 @@
         android:layout_marginBottom="20dp"
         android:text="@string/crear_nuevo_contacto" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:clickable="true"
+        android:src="@drawable/baseline_edit_24" />
+
 
 </LinearLayout>
 
